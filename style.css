@@ -1,0 +1,78 @@
+.cnt
+{
+text-align: center;
+}
+.cnt>h1
+{
+    font-size: 50px;
+}
+.card1>img
+{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+   
+}
+.card1
+{
+/* width: 100%; */
+align-items: center;
+
+
+
+}
+@media(max-width:1000px)
+{
+    .card1
+    {
+       width: 100%;
+       margin:0 auto;
+
+    }
+}
+
+.cnt1
+{
+    display: flex;
+    justify-content: center;
+    
+    
+    align-items: center;
+
+}
+
+.cnt1>img
+{
+    border: 2px dotted black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    transition: transform 1s; 
+}
+.cnt1>img:hover
+{
+    transform: rotate(360deg);
+}
+
+.cnt1>h1
+{
+    padding-left: 10px;
+}
+
+.table1>tbody>tr>td
+{
+    text-align: justify;
+}
+
+.house
+{
+    width: 100px;
+    height: 100px;
+}
+.top
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
